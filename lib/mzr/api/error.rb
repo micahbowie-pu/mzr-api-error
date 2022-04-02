@@ -12,7 +12,7 @@ module Mzr
 
         def configure
           yield(configuration)
-          load 'mzr/api/error/engine'
+          load 'mzr/api/error_engine'
         end
 
         def all_errors
